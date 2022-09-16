@@ -1,5 +1,5 @@
 import math
 
-print ("Hello World mouad")
+print ("Hello World gogo")
 
-print ("I hate the world mouad")
+print ("I hate the world lets")
