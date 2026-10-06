@@ -1,0 +1,33 @@
+{
+  "Id": "fe384416-4020-4cf0-b4b6-b2eac4139764",
+  "Name": "BNPP Foundry Basic User - Socle Account v1",
+  "IsCustom": true,
+  "Description": "Niveau compte Foundry, partage par toutes les equipes: consultation de la ressource, des deploiements, des modeles, des usages et metriques; Chat Completions / Responses via Entra. Aucun droit de cle, connexion, projet ou agent.",
+  "Actions": [
+    "Microsoft.CognitiveServices/accounts/read",
+    "Microsoft.CognitiveServices/accounts/deployments/read",
+    "Microsoft.CognitiveServices/accounts/models/read",
+    "Microsoft.CognitiveServices/accounts/usages/read",
+    "Microsoft.Insights/metricDefinitions/read",
+    "Microsoft.Insights/metricNamespaces/read",
+    "Microsoft.Insights/metrics/read"
+  ],
+  "NotActions": [],
+  "DataActions": [
+    "Microsoft.CognitiveServices/accounts/AIServices/deployments/read",
+    "Microsoft.CognitiveServices/accounts/AIServices/usage/read",
+    "Microsoft.CognitiveServices/accounts/OpenAI/deployments/read",
+    "Microsoft.CognitiveServices/accounts/OpenAI/models/read",
+    "Microsoft.CognitiveServices/accounts/OpenAI/deployments/chat/completions/action",
+    "Microsoft.CognitiveServices/accounts/OpenAI/responses/read",
+    "Microsoft.CognitiveServices/accounts/OpenAI/responses/write",
+    "Microsoft.CognitiveServices/accounts/MaaS/chat/completions/action",
+    "Microsoft.CognitiveServices/accounts/MaaS/v1/chat/completions/action",
+    "Microsoft.CognitiveServices/accounts/AIServices/responses/read",
+    "Microsoft.CognitiveServices/accounts/AIServices/responses/write"
+  ],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/4d58f3b8-bbfb-4c7d-9822-10cad54e0f74/resourceGroups/inframint"
+  ]
+}

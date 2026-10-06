@@ -1,0 +1,18 @@
+{
+  "Name": "BNPP Foundry Basic User - Socle Project v1",
+  "IsCustom": true,
+  "Description": "Niveau projet Foundry, assigne par equipe sur son projet: consultation du projet, de la liste de ses connexions (sans secrets) et de ses metriques. Aucun droit de cle, de secret de connexion ou d'agent.",
+  "Actions": [
+    "Microsoft.CognitiveServices/accounts/projects/read",
+    "Microsoft.CognitiveServices/accounts/projects/connections/read",
+    "Microsoft.Insights/metricDefinitions/read",
+    "Microsoft.Insights/metricNamespaces/read",
+    "Microsoft.Insights/metrics/read"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/4d58f3b8-bbfb-4c7d-9822-10cad54e0f74/resourceGroups/inframint"
+  ]
+}
